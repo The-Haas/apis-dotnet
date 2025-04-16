@@ -26,4 +26,4 @@ namespace api_csv.Controllers
             return Ok(_dbContext.Animals);
         }
     }
-}
+};
