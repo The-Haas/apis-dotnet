@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{8D3774E2-430A-458F-8AD1-A762C6D9D362}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AnimaisController.cs">
+    <Files>
+      <File FileName="api_csv.csproj" Line="27" Column="1" />
+      <File FileName="Program.cs" Line="21" Column="56" />
+      <File FileName="animais.txt" Line="1" Column="56" />
+      <File FileName="database/dbContext.cs" Line="8" Column="24" />
+      <File FileName="database/models/Animal.cs" Line="13" Column="1" />
+      <File FileName="Controllers/AnimaisController.cs" Line="20" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="api_csv" expanded="True">
+            <Node name="api_csv">
+              <Node name="Controllers">
+                <Node name="AnimaisController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.api__csv PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

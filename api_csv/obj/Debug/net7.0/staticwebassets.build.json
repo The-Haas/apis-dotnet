@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2Hs4yAdz8pF6YoCS9GcqYOG0A4XGHkwi0caIjA6FYu0=",
+  "Source": "api_csv",
+  "BasePath": "_content/api_csv",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
