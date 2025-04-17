@@ -18,6 +18,8 @@ namespace api_csv
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            //registro de classes para serem criadas automaticamente
             builder.Services.AddSingleton<dbContext>();
 
             var app = builder.Build();
