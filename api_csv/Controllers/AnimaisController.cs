@@ -78,7 +78,7 @@ namespace api_csv.Controllers
                 return NotFound(); //404
 
             animal.Name = body.Name;
-                return Ok(animal); //200
+            return Ok(animal); //200
         }
 
 
@@ -100,23 +100,21 @@ namespace api_csv.Controllers
             {
                 return BadRequest("Tem campos Faltando"); //400
             }
-                
+
 
             try
             {
 
-
-                //
-                // fazer o gerar o ID automático no body.id
-                //
+                // Incrementando o ID de forma automatica pro usuário não precisar informar manual
+                body.Id = _dbContext.Animals.Any() ? _dbContext.Animals.Max(a => a.Id) + 1 : 1;
 
 
                 // Adiciona o novo animal que foi passado pelo body
                 _dbContext.Animals.Add(body);
 
-                       //created action é o Status code que retorna quando um registro é criado
-                return CreatedAtAction("Created" , body); //201
-                
+                //created action é o Status code que retorna quando um registro é criado
+                return CreatedAtAction("Created", body); //201
+
             }
             catch (Exception e)
             {
@@ -126,37 +124,44 @@ namespace api_csv.Controllers
         }
 
 
+        // metodo put para editar todo o registro do animal passando o ID
         [HttpPut("{id}")]
-        public ActionResult<Animal> Update(int id, [FromBody] Animal updatedAnimal)
+        public ActionResult<Animal> Update(int id, [FromBody] Animal animal)
         {
-            if (updatedAnimal == null || string.IsNullOrEmpty(updatedAnimal.Name))
-                return BadRequest("Dados inválidos.");
 
-            Animal existingAnimal = _dbContext.Animals.FirstOrDefault(a => a.Id == id);
-
-            if (existingAnimal == null)
-                return NotFound(); // 404
-
-            // incrementando as propriedades do animal
-            existingAnimal.Name = updatedAnimal.Name;
-            existingAnimal.Classification = updatedAnimal.Classification;
-            existingAnimal.Origin = updatedAnimal.Origin;
-            existingAnimal.Reproduction = updatedAnimal.Reproduction;
-            existingAnimal.Feedding = updatedAnimal.Feedding;
-
-            //
-            // fazer o comando pra gravar o animal alterado no arquivo
-            //
+            if (animal == null)
+                return BadRequest("Não foi passado o animal par atualizar.");
 
 
-            _dbContext.Animals.
-            
+            // analisa se tem algum campo vazio que é obrigatório.
+            if (string.IsNullOrEmpty(animal.Name) ||
+                string.IsNullOrEmpty(animal.Classification) ||
+                string.IsNullOrEmpty(animal.Origin) ||
+                string.IsNullOrEmpty(animal.Reproduction) ||
+                string.IsNullOrEmpty(animal.Feedding))
+            {
+                //retorna o erro
+                return BadRequest("Tem campos que são obrigatórios faltando.");
+            }
 
-            return Ok(existingAnimal); // 200
+            // achar o animal na lista para alterar.
+            var animalExistente = _dbContext.Animals.FirstOrDefault(a => a.Id == id);
+
+
+            if (animalExistente == null)
+            {
+                return NotFound(); //404
+            }
+
+            //Atualiza os dados.
+            animalExistente.Name = animal.Name;
+            animalExistente.Classification = animal.Classification;
+            animalExistente.Origin = animal.Origin;
+            animalExistente.Reproduction = animal.Reproduction;
+            animalExistente.Feedding = animal.Feedding;
+
+            return Ok(animalExistente);
+
         }
-
-
-
-
     }
 }
