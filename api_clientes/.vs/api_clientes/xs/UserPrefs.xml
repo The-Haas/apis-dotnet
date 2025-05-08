@@ -1,11 +1,30 @@
 ﻿<Properties StartupConfiguration="{6EC12CA8-443D-4AC3-8FED-9C062661C291}|http">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Database/Models/TbCliente.cs">
+    <Files>
+      <File FileName="api_clientes.csproj" Line="39" Column="11" />
+      <File FileName="Program.cs" Line="12" Column="6" />
+      <File FileName="Database/Models/ClientesContext.cs" Line="17" Column="1" />
+      <File FileName="Database/Models/TbEndereco.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ClientesController.cs" Line="22" Column="36" />
+      <File FileName="Services/ClientesService.cs" Line="20" Column="18" />
+      <File FileName="Database/Models/TbCliente.cs" Line="3" Column="1" />
+      <File FileName="Services/DTOs/ClienteDTO.cs" Line="4" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="api_clientes" expanded="True">
-            <Node name="api_clientes" selected="True" />
+          <Node name="api_clientes">
+            <Node name="api_clientes">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Database" expanded="True">
+                <Node name="Models" expanded="True">
+                  <Node name="TbCliente.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -16,5 +35,5 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.api__clientes FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.api__clientes PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
