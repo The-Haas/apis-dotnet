@@ -37,11 +37,11 @@ namespace api_clientes.Controllers
             }
             catch (BadRequestException B)
             {
-                return BadRequest(B); //400
+                return BadRequest(B.Message); //400
             }
             catch (System.Exception E)
             {
-                return BadRequest(E); //500
+                return BadRequest(E.Message); //500
             }
 
             
