@@ -22,6 +22,11 @@ public class Program
         builder.Services.AddSingleton<ClientesContext>();
         builder.Services.AddScoped<ClientesService>();
 
+        builder.Services.AddScoped<EnderecosService>();
+        builder.Services.AddControllers();
+
+
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

@@ -38,4 +38,7 @@
     <Folder Include="Services\Parses\" />
     <Folder Include="Services\Exceptions\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\Parses\TbEndereco.cs" />
+  </ItemGroup>
 </Project>
