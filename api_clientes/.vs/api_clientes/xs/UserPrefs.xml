@@ -1,26 +1,34 @@
 ﻿<Properties StartupConfiguration="{6EC12CA8-443D-4AC3-8FED-9C062661C291}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.api__clientes PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/EnderecosController.cs">
     <Files>
-      <File FileName="Database/Models/TbEndereco.cs" Line="14" Column="39" />
-      <File FileName="Services/DTOs/EnderecoDTO.cs" Line="18" Column="6" />
-      <File FileName="Services/Parses/EnderecoParser.cs" Line="23" Column="1" />
-      <File FileName="Services/Validations/EnderecoValidation.cs" Line="16" Column="55" />
-      <File FileName="Services/EnderecosService.cs" Line="111" Column="1" />
-      <File FileName="Controllers/EnderecosController.cs" Line="69" Column="16" />
-      <File FileName="Services/Exceptions/BadRequestException.cs" Line="13" Column="1" />
-      <File FileName="Services/Exceptions/NotFoundException.cs" Line="15" Column="1" />
-      <File FileName="Program.cs" Line="19" Column="97" />
-      <File FileName="Services/DTOs/CriarEnderecoDTO.cs" Line="13" Column="41" />
-      <File FileName="Services/Parses/TbEndereco.cs" Line="16" Column="1" />
+      <File FileName="Database/Models/TbEndereco.cs" />
+      <File FileName="Services/DTOs/EnderecoDTO.cs" />
+      <File FileName="Services/Parses/EnderecoParser.cs" />
+      <File FileName="Services/Validations/EnderecoValidation.cs" />
+      <File FileName="Services/EnderecosService.cs" />
+      <File FileName="Controllers/EnderecosController.cs" Line="9" Column="20" />
+      <File FileName="Services/Exceptions/BadRequestException.cs" />
+      <File FileName="Services/Exceptions/NotFoundException.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Services/DTOs/CriarEnderecoDTO.cs" />
+      <File FileName="Services/Parses/TbEndereco.cs" />
+      <File FileName="Controllers/ClientesController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="api_clientes">
             <Node name="api_clientes" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="EnderecosController.cs" selected="True" />
+              </Node>
               <Node name="Database" expanded="True">
                 <Node name="Models" expanded="True" />
               </Node>
@@ -35,14 +43,6 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
