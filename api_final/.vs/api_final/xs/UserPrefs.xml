@@ -1,4 +1,29 @@
 ﻿<Properties StartupConfiguration="{D1819C8C-8012-46F4-A1A8-39A0BB670FF9}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.api__final FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.api__final PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="api_final" expanded="True">
+            <Node name="api_final">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Database" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Profiles" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="DTOs" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

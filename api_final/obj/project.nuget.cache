@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "AQioeujY82Y2OnPW8HeVaSFDXSdDArr6rujJ6QYtNvi6wansltCS/1HljvwYZht/+ZMP1E0p6UF781wH7EIJtg==",
+  "dgSpecHash": "QKH7K5OlvKXGhM9nBNBGw4LCHbRULFHpYfwuGV04oApB2Q7414fUx8uhRNmGwQ6nRaun2m16sXqlQJ61kp1E0Q==",
   "success": true,
   "projectFilePath": "/Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/api_final.csproj",
   "expectedPackageFiles": [
+    "/Users/igorhaas/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/igorhaas/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/microsoft.aspnetcore.openapi/7.0.20/microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",
+    "/Users/igorhaas/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/microsoft.entityframeworkcore/7.0.20/microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.20/microsoft.entityframeworkcore.abstractions.7.0.20.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.20/microsoft.entityframeworkcore.analyzers.7.0.20.nupkg.sha512",
