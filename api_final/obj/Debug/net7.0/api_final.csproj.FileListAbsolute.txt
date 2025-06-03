@@ -41,3 +41,6 @@
 /Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/obj/Debug/net7.0/api_final.pdb
 /Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/obj/Debug/net7.0/api_final.genruntimeconfig.cache
 /Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/obj/Debug/net7.0/ref/api_final.dll
+/Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/bin/Debug/net7.0/AutoMapper.dll
+/Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/bin/Debug/net7.0/FluentValidation.dll

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QKH7K5OlvKXGhM9nBNBGw4LCHbRULFHpYfwuGV04oApB2Q7414fUx8uhRNmGwQ6nRaun2m16sXqlQJ61kp1E0Q==",
+  "dgSpecHash": "D03HIqwIwuIVv9Hmq8bUyuWgDLbv+M8GJP3KXSx53ti5t0L3ILqHWRNFYPoq/58hwFJytUTZp0OtcPwylFMfPw==",
   "success": true,
   "projectFilePath": "/Users/igorhaas/Desktop/Paradigmas de Linguagens de Programação - Juliano/Algoritmos/apis/api_final/api_final.csproj",
   "expectedPackageFiles": [
     "/Users/igorhaas/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/igorhaas/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/microsoft.aspnetcore.openapi/7.0.20/microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -38,5 +39,16 @@
     "/Users/igorhaas/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/igorhaas/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "api_final depende de FluentValidation (>= 11.8.2), mas FluentValidation 11.8.2 não foi encontrado. A melhor correspondência aproximada de FluentValidation 11.9.0 foi resolvida.",
+      "libraryId": "FluentValidation",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

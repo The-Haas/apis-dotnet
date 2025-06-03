@@ -9,6 +9,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.8.2" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.20" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.18" />
@@ -30,6 +31,8 @@
     <None Remove="Services\Parses\" />
     <None Remove="Services\Validations\" />
     <None Remove="Profiles\" />
+    <None Remove="Services\Validators\" />
+    <None Remove="Services\Mappings\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -39,9 +42,12 @@
     <Folder Include="Services\Parses\" />
     <Folder Include="Services\Validations\" />
     <Folder Include="Profiles\" />
+    <Folder Include="Services\Validators\" />
+    <Folder Include="Services\Mappings\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
     <Compile Remove="Services\DTOs\ChamadoDTO.cs" />
+    <Compile Remove="Services\DTOs\ClienteResponseDTO.cs" />
   </ItemGroup>
 </Project>

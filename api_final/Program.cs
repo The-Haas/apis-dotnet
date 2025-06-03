@@ -1,4 +1,11 @@
 ﻿
+using api_final.Database.Models;
+using api_final.DTOs;
+using api_final.Services;
+using api_final.Validators;
+using FluentValidation;
+
+
 namespace api_final;
 
 public class Program
@@ -14,7 +21,10 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+        builder.Services.AddControllers().AddXmlSerializerFormatters(); // permite resposta em XML
+        builder.Services.AddDbContext<ChamadosContext>();
+        builder.Services.AddScoped<ResponsaveisService>();
+        builder.Services.AddScoped<IValidator<ResponsavelRequestDTO>, ResponsavelValidator>();
 
         var app = builder.Build();
 
