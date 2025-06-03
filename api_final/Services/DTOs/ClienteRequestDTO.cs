@@ -1,9 +1,8 @@
 ﻿using System;
 namespace api_final.Services.DTOs
 {
-    public class ClienteResponseDTO
+    public class ClienteRequestDTO
     {
-        public int IdCliente { get; set; }
         public string RazaoSocialCliente { get; set; }
         public string NomeFantasiaCliente { get; set; }
         public string CnpjCliente { get; set; }
@@ -11,4 +10,3 @@ namespace api_final.Services.DTOs
         public string? EnderecoCliente { get; set; }
     }
 }
-

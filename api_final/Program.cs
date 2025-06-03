@@ -2,6 +2,7 @@
 using api_final.Database.Models;
 using api_final.DTOs;
 using api_final.Services;
+using api_final.Services.DTOs;
 using api_final.Validators;
 using FluentValidation;
 
@@ -25,6 +26,10 @@ public class Program
         builder.Services.AddDbContext<ChamadosContext>();
         builder.Services.AddScoped<ResponsaveisService>();
         builder.Services.AddScoped<IValidator<ResponsavelRequestDTO>, ResponsavelValidator>();
+        builder.Services.AddScoped<ClientesService>();
+        builder.Services.AddScoped<IValidator<ClienteRequestDTO>, ClienteValidator>();
+        
+
 
         var app = builder.Build();
 

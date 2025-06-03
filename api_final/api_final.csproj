@@ -48,6 +48,5 @@
   <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
     <Compile Remove="Services\DTOs\ChamadoDTO.cs" />
-    <Compile Remove="Services\DTOs\ClienteResponseDTO.cs" />
   </ItemGroup>
 </Project>

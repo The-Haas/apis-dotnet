@@ -1,24 +1,37 @@
 ﻿<Properties StartupConfiguration="{D1819C8C-8012-46F4-A1A8-39A0BB670FF9}|http">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.api__final PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/DTOs/ResponsavelRequestDTO.cs">
+    <Files>
+      <File FileName="Services/DTOs/ResponsavelRequestDTO.cs" Line="8" Column="1" />
+      <File FileName="Services/DTOs/ResponsavelResponseDTO.cs" Line="1" Column="1" />
+      <File FileName="Services/Validators/ResponsavelValidator.cs" Line="14" Column="6" />
+      <File FileName="Services/ResponsaveisService.cs" Line="1" Column="1" />
+      <File FileName="Services/Mappings/ResponsavelProfile.cs" Line="16" Column="1" />
+      <File FileName="Controllers/ResponsaveisController.cs" Line="45" Column="37" />
+      <File FileName="Program.cs" Line="17" Column="28" />
+      <File FileName="Database/Models/Email.cs" Line="1" Column="1" />
+      <File FileName="Database/Models/Telefone.cs" Line="1" Column="1" />
+      <File FileName="Services/DTOs/ClienteResponseDTO.cs" Line="10" Column="1" />
+      <File FileName="Services/ClientesService.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="api_final" expanded="True">
+          <Node name="api_final">
             <Node name="api_final">
               <Node name="Controllers" expanded="True" />
               <Node name="Database" expanded="True">
                 <Node name="Models" expanded="True" />
               </Node>
-              <Node name="Profiles" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Services" expanded="True">
-                <Node name="DTOs" expanded="True" selected="True" />
+                <Node name="DTOs" expanded="True" />
+                <Node name="Mappings" expanded="True" />
+                <Node name="Validators" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -26,4 +39,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
