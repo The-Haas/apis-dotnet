@@ -30,6 +30,10 @@ public class Program
         builder.Services.AddScoped<IValidator<ClienteRequestDTO>, ClienteValidator>();
         builder.Services.AddScoped<TelefonesService>();
         builder.Services.AddScoped<IValidator<TelefoneRequestDTO>, TelefoneValidator>();
+        builder.Services.AddScoped<EmailsService>();
+        builder.Services.AddScoped<IValidator<EmailRequestDTO>, EmailValidator>();
+
+
 
 
 
