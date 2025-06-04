@@ -32,6 +32,9 @@ public class Program
         builder.Services.AddScoped<IValidator<TelefoneRequestDTO>, TelefoneValidator>();
         builder.Services.AddScoped<EmailsService>();
         builder.Services.AddScoped<IValidator<EmailRequestDTO>, EmailValidator>();
+        builder.Services.AddScoped<ChamadoService>();
+        builder.Services.AddScoped<IValidator<ChamadoRequestDTO>, ChamadoValidator>();
+
 
 
 

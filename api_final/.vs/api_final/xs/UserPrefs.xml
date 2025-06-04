@@ -1,31 +1,34 @@
 ﻿<Properties StartupConfiguration="{D1819C8C-8012-46F4-A1A8-39A0BB670FF9}|http">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/TelefonesController.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/TelefonesService.cs">
     <Files>
-      <File FileName="Controllers/TelefonesController.cs" Line="7" Column="3" />
-      <File FileName="Controllers/ResponsaveisController.cs" />
-      <File FileName="Services/Mappings/TelefoneProfile.cs" />
-      <File FileName="Services/Validators/ClienteValidator.cs" />
-      <File FileName="Services/Validators/ResponsavelValidator.cs" />
-      <File FileName="Services/Validators/TelefoneValidator.cs" />
-      <File FileName="Services/DTOs/TelefoneRequestDTO.cs" />
-      <File FileName="Services/DTOs/TelefoneResponseDTO.cs" />
-      <File FileName="Program.cs" />
-      <File FileName="Database/Models/Telefone.cs" />
-      <File FileName="Services/TelefonesService.cs" />
-      <File FileName="Database/Models/Responsavel.cs" />
-      <File FileName="Services/DTOs/ClienteRequestDTO.cs" />
-      <File FileName="Services/DTOs/ResponsavelRequestDTO.cs" />
-      <File FileName="Services/DTOs/ResponsavelResponseDTO.cs" />
-      <File FileName="Services/Mappings/ResponsavelProfile.cs" />
-      <File FileName="Services/ResponsaveisService.cs" />
+      <File FileName="Services/Validators/EmailValidator.cs" Line="3" Column="1" />
+      <File FileName="Controllers/EmailsController.cs" Line="6" Column="2" />
+      <File FileName="Database/Models/Email.cs" Line="4" Column="37" />
+      <File FileName="Services/DTOs/EmailResponseDTO.cs" Line="7" Column="43" />
+      <File FileName="Services/DTOs/EmailRequestDTO.cs" Line="7" Column="6" />
+      <File FileName="Services/Mappings/EmailProfile.cs" Line="8" Column="6" />
+      <File FileName="Services/EmailsService.cs" Line="38" Column="75" />
+      <File FileName="Services/ClientesService.cs" Line="4" Column="37" />
+      <File FileName="Services/ResponsaveisService.cs" Line="9" Column="6" />
+      <File FileName="Services/TelefonesService.cs" Line="11" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="api_final">
             <Node name="api_final">
-              <Node name="Controllers" expanded="True">
-                <Node name="TelefonesController.cs" selected="True" />
+              <Node name="Database" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Services">
+                <Node name="DTOs" expanded="True" />
+                <Node name="Mappings" expanded="True" />
+                <Node name="Validators" expanded="True" />
+                <Node name="TelefonesService.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -33,11 +36,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.api__final PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.api__final PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
