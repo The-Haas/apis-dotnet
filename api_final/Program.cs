@@ -34,6 +34,9 @@ public class Program
         builder.Services.AddScoped<IValidator<EmailRequestDTO>, EmailValidator>();
         builder.Services.AddScoped<ChamadoService>();
         builder.Services.AddScoped<IValidator<ChamadoRequestDTO>, ChamadoValidator>();
+        builder.Services.AddScoped<ChamadoCompletoService>();
+
+
 
 
 

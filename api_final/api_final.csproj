@@ -28,9 +28,6 @@
     <None Remove="Services\" />
     <None Remove="Services\DTOs\" />
     <None Remove="Services\Exceptions\" />
-    <None Remove="Services\Parses\" />
-    <None Remove="Services\Validations\" />
-    <None Remove="Profiles\" />
     <None Remove="Services\Validators\" />
     <None Remove="Services\Mappings\" />
   </ItemGroup>
@@ -39,14 +36,14 @@
     <Folder Include="Services\" />
     <Folder Include="Services\DTOs\" />
     <Folder Include="Services\Exceptions\" />
-    <Folder Include="Services\Parses\" />
-    <Folder Include="Services\Validations\" />
-    <Folder Include="Profiles\" />
     <Folder Include="Services\Validators\" />
     <Folder Include="Services\Mappings\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
     <Compile Remove="Services\DTOs\ChamadoDTO.cs" />
+    <Compile Remove="Controllers\ClienteCompletoController.cs" />
+    <Compile Remove="Services\DTOs\ClienteCompletoResponseDTO.cs" />
+    <Compile Remove="Services\ClienteCompletoService.cs" />
   </ItemGroup>
 </Project>

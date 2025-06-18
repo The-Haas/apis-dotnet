@@ -2,33 +2,29 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/TelefonesService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ChamadosController.cs">
     <Files>
-      <File FileName="Services/Validators/EmailValidator.cs" Line="3" Column="1" />
-      <File FileName="Controllers/EmailsController.cs" Line="6" Column="2" />
-      <File FileName="Database/Models/Email.cs" Line="4" Column="37" />
-      <File FileName="Services/DTOs/EmailResponseDTO.cs" Line="7" Column="43" />
-      <File FileName="Services/DTOs/EmailRequestDTO.cs" Line="7" Column="6" />
-      <File FileName="Services/Mappings/EmailProfile.cs" Line="8" Column="6" />
-      <File FileName="Services/EmailsService.cs" Line="38" Column="75" />
-      <File FileName="Services/ClientesService.cs" Line="4" Column="37" />
-      <File FileName="Services/ResponsaveisService.cs" Line="9" Column="6" />
-      <File FileName="Services/TelefonesService.cs" Line="11" Column="42" />
+      <File FileName="Controllers/ChamadosController.cs" Line="15" Column="64" />
+      <File FileName="Controllers/ClientesController.cs" />
+      <File FileName="Controllers/EmailsController.cs" />
+      <File FileName="Controllers/ResponsaveisController.cs" />
+      <File FileName="Controllers/TelefonesController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="api_final">
             <Node name="api_final">
+              <Node name="Controllers" expanded="True">
+                <Node name="ChamadosController.cs" selected="True" />
+              </Node>
               <Node name="Database" expanded="True">
                 <Node name="Models" expanded="True" />
               </Node>
-              <Node name="Services">
+              <Node name="Services" expanded="True">
                 <Node name="DTOs" expanded="True" />
                 <Node name="Mappings" expanded="True" />
                 <Node name="Validators" expanded="True" />
-                <Node name="TelefonesService.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -36,7 +32,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.api__final PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
