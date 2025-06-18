@@ -1,4 +1,7 @@
 ﻿
+// Controller que recebe as requisições HTTP relacionadas a chamados, 
+// valida os dados com FluentValidation e chama o serviçe para executar a lógica.
+// É o ponto de entrada da API para operações CRUD de chamados, chamado pelo cliente (front-end ou outro serviço).
 using Microsoft.AspNetCore.Mvc;
 using api_final.DTOs;
 using api_final.Services;

@@ -1,4 +1,7 @@
 ﻿
+// DTO é usado para transferir dados entre cliente e API de forma controlada sem expor dados sensíveis.
+// DTOs separados para Request e Response ajuda a diferenciar os dados recebidos dos enviados,  
+// Quem usa esses DTOs são os controllers da API ao receber e enviar dados.
 namespace api_final.DTOs
 {
     public class ChamadoResponseDTO
