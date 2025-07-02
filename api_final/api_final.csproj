@@ -27,7 +27,6 @@
     <None Remove="Controllers\" />
     <None Remove="Services\" />
     <None Remove="Services\DTOs\" />
-    <None Remove="Services\Exceptions\" />
     <None Remove="Services\Validators\" />
     <None Remove="Services\Mappings\" />
   </ItemGroup>
@@ -35,7 +34,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Services\" />
     <Folder Include="Services\DTOs\" />
-    <Folder Include="Services\Exceptions\" />
     <Folder Include="Services\Validators\" />
     <Folder Include="Services\Mappings\" />
   </ItemGroup>

@@ -10,19 +10,25 @@ using FluentValidation;
 namespace api_final.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    [Produces("application/json", "application/xml")]
-    public class ChamadoController : ControllerBase
+    [Route("api/[controller]")]                           // Rota base para esse controller
+    [Produces("application/json", "application/xml")]     // Response em JSON e XML
+    public class ChamadoController : ControllerBase       // Define a classe ChamadoController como um ControllerBase.
     {
-        private readonly ChamadoService _service;
-        private readonly IValidator<ChamadoRequestDTO> _validator;
+        private readonly ChamadoService _service;                    // Acessar os métodos do service.
+        private readonly IValidator<ChamadoRequestDTO> _validator;   // Validador do FluentValidation para o DTO de requisição.
 
+        // Construtor da classe ChamadoController.
         public ChamadoController(ChamadoService service, IValidator<ChamadoRequestDTO> validator)
         {
             _service = service;
             _validator = validator;
         }
 
+
+        // Metodo assincrono que retorna uma lista de objetos do tipo ChamadoResponseDTO
+        // Task: o metodo é assincrono e pode ser aguardado (usando 'await')
+        // ActionResult pra retornar códigos HTTP
+        // IEnumerable é a resposta principal, é uma coleção de objetos DTO representando os chamados que pode ser percorrido
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ChamadoResponseDTO>>> GetAll()
         {
@@ -33,6 +39,7 @@ namespace api_final.Controllers
         public async Task<ActionResult<ChamadoResponseDTO>> GetById(int id)
         {
             var result = await _service.GetByIdAsync(id);
+            // Operador ternário, se for null, retorna Not Found, senão OK
             return result == null ? NotFound() : Ok(result);
         }
 

@@ -1,5 +1,5 @@
 ﻿
-// Serviçe implementa a lógica de negócio para gerenciar chamados, usando o contexto do banco e AutoMapper.
+// Service implementa a lógica de negócio para gerenciar chamados, usando o contexto do banco e AutoMapper.
 // Ele faz operações CRUD (criar, ler, atualizar, deletar) no banco, convertendo dados entre entidades e DTOs.
 // Os controllers chamam esse serviço para executar as ações solicitadas pela API.
 
@@ -13,7 +13,7 @@ namespace api_final.Services
 {
     public class ChamadoService
     {
-        // pra acessar as tabelas do BF
+        // pra acessar as tabelas do BD
         private readonly ChamadosContext _context;
 
         // mapper para converter entre entidades e DTOs
