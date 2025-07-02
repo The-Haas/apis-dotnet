@@ -29,6 +29,7 @@ namespace api_final.Controllers
         // Task: o metodo é assincrono e pode ser aguardado (usando 'await')
         // ActionResult pra retornar códigos HTTP
         // IEnumerable é a resposta principal, é uma coleção de objetos DTO representando os chamados que pode ser percorrido
+        // IActionResult permite que o método retorne diferentes statuscode http
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ChamadoResponseDTO>>> GetAll()
         {

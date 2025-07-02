@@ -8,7 +8,9 @@ namespace api_final.Mappings
     {
         public ClienteProfile()
         {
+            //Mapeia automaticamente os campos da entidade Cliente para o DTO de resposta
             CreateMap<Cliente, ClienteResponseDTO>();
+            //Mapeia do DTO de requisição para a entidade Cliente
             CreateMap<ClienteRequestDTO, Cliente>();
         }
     }
